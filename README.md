@@ -1,4 +1,4 @@
-deadsimple JSON.stringify which cares less (omits decircularizes values) Edit
+deadsimple JSON.stringify which cares less (omits decircularizes values)
 
 ![Build Status](https://travis-ci.org/--repourl=git@github.com:coderofsalvation/safer-json-stringify..svg?branch=master)
 
@@ -9,6 +9,8 @@ deadsimple JSON.stringify which cares less (omits decircularizes values) Edit
     JSON.stringify( yourcircularjson )
 
 ## Why
+
+![](https://media.giphy.com/media/3SBi8gMf8BqBG/giphy.gif)
 
 I tried safe-json-stringify which didn't do what i wanted:
 
