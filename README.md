@@ -1,10 +1,19 @@
-description here
+deadsimple JSON.stringify which cares less (omits decircularizes values) Edit
 
 ![Build Status](https://travis-ci.org/--repourl=git@github.com:coderofsalvation/safer-json-stringify..svg?branch=master)
 
 ## Usage
 
-## Features
+    require('safer-json-stringify')
 
-## Example: foo
+    JSON.stringify( yourcircularjson )
 
+## Why
+
+I tried safe-json-stringify which didn't do what i wanted:
+
+* didn't patch JSON.stringify
+* didn't proxy all arguments to the original JSON.stringify (like JSON.stringify(foo,null,2))
+* introduces null-values which breaks json-format
+
+This is a really simple patch which only patches the input only, and proxies all arguments
