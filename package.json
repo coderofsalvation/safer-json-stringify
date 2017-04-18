@@ -1,7 +1,7 @@
 {
   "name": "safer-json-stringify",
   "version": "1.0.0",
-  "description": "",
+  "description": "deadsimple JSON.stringify which cares less (omits decircularizes values)",
   "main": "index.js",
   "directories": {
     "test": "set -ex; for test in test/tests/*; do $test; done"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/coderofsalvation/safer-json-stringify.git"
   },
-  "keywords": [],
+  "keywords": ["json","stringify","circular","dependency","null","safe"],
   "author": "",
   "license": "ISC",
   "bugs": {
