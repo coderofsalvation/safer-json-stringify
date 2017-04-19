@@ -1,6 +1,6 @@
 {
   "name": "safer-json-stringify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "deadsimple JSON.stringify which cares less (omits decircularizes values)",
   "main": "index.js",
   "directories": {
